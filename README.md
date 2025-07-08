@@ -65,6 +65,54 @@ Traditional risk metrics can be hard to interpret. This chatbot:
 ```bash
 git clone https://github.com/deepanshi-jain/portfolio-risk-chatbot.git
 cd portfolio-risk-chatbot
-
+```
 ### 2.Install Dependencies
-pip install -r requirements.txt
+   ```bash
+      pip install -r requirements.txt
+
+```
+### 3.Set Up OpenAI API Key
+```bash
+OPENAI_API_KEY=your_openai_key_here
+```
+### 4.  Run the App
+```bash
+streamlit run app.py
+```
+
+💡 Example Use
+You input:
+
+Mean Daily Return: 0.1%
+
+Volatility: 1.0%
+
+Days: 252
+
+Simulations: 1000
+
+Output:
+
+VaR: $98,200
+
+CVaR: $92,500
+
+GPT-4 Explanation:
+
+There is a 5% chance your portfolio will drop below $98,200 after one year. In those worst-case scenarios, the average loss is about $92,500.
+
+
+
+🌍 Future Enhancements
+Upload portfolio CSV files
+
+Pull real-time asset data (e.g., via yfinance)
+
+Use LangChain for multi-turn financial conversations
+
+Add Sharpe ratio, drawdown, and correlation heatmaps
+
+Deploy to Streamlit Cloud / Hugging Face Spaces
+
+
+
