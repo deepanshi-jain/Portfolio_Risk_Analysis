@@ -80,7 +80,7 @@ OPENAI_API_KEY=your_openai_key_here
 streamlit run app.py
 ```
 
-💡 Example Use
+##💡 Example Use
 You input:
 
 Mean Daily Return: 0.1%
@@ -103,7 +103,7 @@ There is a 5% chance your portfolio will drop below $98,200 after one year. In t
 
 
 
-🌍 Future Enhancements
+##🌍 Future Enhancements
 Upload portfolio CSV files
 
 Pull real-time asset data (e.g., via yfinance)
