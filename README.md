@@ -104,7 +104,6 @@ After running the simulation, the app returns:
 
 The line chart visualizes over 1000 simulated portfolio paths, showing how values fluctuate over time and where the risk zones lie.
 
-<img width="1580" height="826" alt="Screenshot 2025-07-13 213634" src="https://github.com/user-attachments/assets/6b080bec-73c9-411f-adc4-4e2be86e39ed" />
 
 
 
